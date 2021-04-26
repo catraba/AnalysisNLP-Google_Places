@@ -1,4 +1,4 @@
 # AnalysisNLP-Google_Places
 
 
-![alt text](https://i.imgur.com/O34GNdU.jpg)
+![alt text](https://imgur.com/a/O34GNdU)

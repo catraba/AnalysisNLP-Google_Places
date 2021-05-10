@@ -22,8 +22,8 @@ Está realizada en Python y JavaScript. La parte de backend se hizo inicialmente
 | Usuarios con API_KEY registrada | GET | /consumers/ | | |
 | Ingresar API_KEY para usuario registrado | POST | /consumers/ | consumer_id, api_key | 1, "abcdefghijklmnopqrstuvwxz" | 
 | Obtener usuario con API_KEY | GET | /consumers/<consumer_id>/ | | |
-| Actualizar API_KEY | PUT | /consumers/<consumer_id> | consumer_id, api_key | 1, "zxwvutsrqponmlkjihgfedcba" |
-| Eliminar API_KEY | DELETE | /consumers/<consumer_id> | |
+| Actualizar API_KEY | PUT | /consumers/<consumer_id>/ | consumer_id, api_key | 1, "zxwvutsrqponmlkjihgfedcba" |
+| Eliminar API_KEY | DELETE | /consumers/<consumer_id>/ | |
 
 ### JSON requests
 

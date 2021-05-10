@@ -25,6 +25,29 @@ Está realizada en Python y JavaScript. La parte de backend se hizo inicialmente
 | Actualizar API_KEY | PUT | /consumers/<consumer_id> | consumer_id, api_key | 1, "zxwvutsrqponmlkjihgfedcba" |
 | Eliminar API_KEY | DELETE | /consumers/<consumer_id> | |
 
+### JSON requests
+
+```
+{
+  "media": 4.3,
+  "reviews_amount: 1108,
+  "reviews_amount": {
+    1: 45,
+    2: 21,
+    3: 26,
+    4: 57,
+    5: 78
+    },
+  "reviews_by_year": {
+    2014: 3.1,
+    2015: 3.9,
+    2016: 3.3,
+    2017: 3.2,
+    2018: 2.5,
+    2019: 2.9
+  }
+}
+```
 
 # Frontend
 

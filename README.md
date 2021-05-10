@@ -2,6 +2,8 @@
 
 Aplicación para hacer un análisis NLP de reviews extraídas de la API de Google Places. 
 
+## Demo
+
 Se puede ver una demo del trabajo inicial, el cual extraigo las reviews de Tripadivisor haciendo scraping a la Web en el siguiente enlace:
 
 [Link](https://github.com/catraba/testingstuffs/blob/master/TripadvisorNLP.ipynb)
@@ -10,6 +12,8 @@ Ahora he hecho lo mismo pero en Web y con Google Places API, lo cual es más fia
 
 Está realizada en Python y JavaScript. La parte de backend se hizo inicialmente con Node.js, aunque finalmente acabé con Django Rest Framework para así hacer las peticiones más fácilmente con Spacy, librería de Python de tratamiento NLP.
 
+
+## Backend
 
 | Descripción | Método | Request | Parámetros | Ejemplo |
 | ----------- | ------ | ------- | ---------- | ------- |
@@ -21,6 +25,8 @@ Está realizada en Python y JavaScript. La parte de backend se hizo inicialmente
 | Actualizar API_KEY | PUT | /consumers/<consumer_id> | consumer_id, api_key | 1, "zxwvutsrqponmlkjihgfedcba" |
 | Eliminar API_KEY | DELETE | /consumers/<consumer_id> | |
 
+
+# Frontend
 
 Para el frontend he utilizado Svelte, además de Chart.js en los gráficos y Bootstrap para los diseños.
 

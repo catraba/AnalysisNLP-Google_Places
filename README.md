@@ -15,7 +15,8 @@ Está realizada en Python y JavaScript. La parte de backend se hizo inicialmente
 | ----------- | ------ | ------- | ---------- | ------- |
 | Ver usuarios registrados | GET | /users/ | |  |
 | Registrar nuevo usuario | POST | /users/ | username, email, password | "perico", "perico@mail.com", "123456789" |
-|
+| Usuarios con API_KEY registrada | GET | /consumers/ | | |
+| Ingresar API_KEY para usuario registrado | POST | /consumers | consumer_id, api_key | 1, "abcdefghijklmnopqrstuvwxz" | 
 
 
 Para el frontend he utilizado Svelte, además de Chart.js en los gráficos y Bootstrap para los diseños.

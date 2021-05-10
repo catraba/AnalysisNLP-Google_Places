@@ -49,7 +49,7 @@ Está realizada en Python y JavaScript. La parte de backend se hizo inicialmente
 }
 ```
 
-# Frontend
+# Frontend (básico)
 
 Para el frontend he utilizado Svelte, además de Chart.js en los gráficos y Bootstrap para los diseños.
 

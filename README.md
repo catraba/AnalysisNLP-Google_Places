@@ -26,7 +26,7 @@ Está realizada en Python y JavaScript. La parte de backend se hizo inicialmente
 | Eliminar API_KEY | DELETE | /consumers/<consumer_id>/ | |
 
 
-## Frontend (básico)
+## Propuesta de Frontend (sin terminar)
 
 Para el frontend he utilizado Svelte, además de Chart.js en los gráficos y Bootstrap para los diseños.
 

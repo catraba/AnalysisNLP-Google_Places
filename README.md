@@ -10,10 +10,10 @@ Se puede ver una demo del trabajo inicial, el cual extraigo las reviews de Tripa
 
 Ahora he hecho lo mismo pero en Web y con Google Places API, lo cual es más fiable y contiene más información sobre un lugar.
 
-Está realizada en Python y JavaScript. La parte de backend se hizo inicialmente con Node.js, aunque finalmente acabé con Django Rest Framework para así hacer las peticiones más fácilmente con Spacy, librería de Python de tratamiento NLP.
-
 
 ## Backend
+
+La parte de backend se hizo inicialmente con Node.js, aunque finalmente acabé con Django Rest Framework para así hacer las peticiones más fácilmente con Spacy, librería de Python de tratamiento NLP.
 
 | Descripción | Método | Request | Parámetros | Ejemplo |
 | ----------- | ------ | ------- | ---------- | ------- |

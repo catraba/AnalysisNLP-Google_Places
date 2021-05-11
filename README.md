@@ -24,7 +24,7 @@ La parte de backend se hizo inicialmente con Node.js, aunque finalmente acabé c
 | Obtener usuario con API_KEY | GET | /consumers/<consumer_id>/ | |
 | Actualizar API_KEY | PUT | /consumers/<consumer_id>/ | consumer_id, api_key |
 | Eliminar API_KEY | DELETE | /consumers/<consumer_id>/ |
-| Request a Google Places API | POST | /analyzer/<int/<consumer_id> | consumer_id, place_id | 
+| Request a Google Places API | POST | /analyzer/<consumer_id>/ | consumer_id, place_id | 
 
 
 ## Propuesta de Frontend (sin terminar)

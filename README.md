@@ -15,15 +15,16 @@ Ahora he hecho lo mismo pero en Web y con Google Places API, lo cual es más fia
 
 La parte de backend se hizo inicialmente con Node.js, aunque finalmente acabé con Django Rest Framework para así hacer las peticiones más fácilmente con Spacy, librería de Python de tratamiento NLP.
 
-| Descripción | Método | Request | Parámetros | Ejemplo |
-| ----------- | ------ | ------- | ---------- | ------- |
-| Ver usuarios registrados | GET | /users/ | |  |
-| Registrar nuevo usuario | POST | /users/ | username, email, password | "perico", "perico@mail.com", "123456789" |
-| Usuarios con API_KEY registrada | GET | /consumers/ | | |
-| Ingresar API_KEY para usuario registrado | POST | /consumers/ | consumer_id, api_key | 1, "abcdefghijklmnopqrstuvwxz" | 
-| Obtener usuario con API_KEY | GET | /consumers/<consumer_id>/ | | |
-| Actualizar API_KEY | PUT | /consumers/<consumer_id>/ | consumer_id, api_key | 1, "zxwvutsrqponmlkjihgfedcba" |
-| Eliminar API_KEY | DELETE | /consumers/<consumer_id>/ | |
+| Descripción | Método | Request | Parámetros |
+| ----------- | ------ | ------- | ---------- |
+| Ver usuarios registrados | GET | /users/ | |
+| Registrar nuevo usuario | POST | /users/ | username, email, password |
+| Usuarios con API_KEY registrada | GET | /consumers/ | |
+| Ingresar API_KEY para usuario registrado | POST | /consumers/ | consumer_id, api_key |
+| Obtener usuario con API_KEY | GET | /consumers/<consumer_id>/ | |
+| Actualizar API_KEY | PUT | /consumers/<consumer_id>/ | consumer_id, api_key |
+| Eliminar API_KEY | DELETE | /consumers/<consumer_id>/ |
+| Request a Google Places API | POST | /analyzer/<int/<consumer_id> | consumer_id, place_id | 
 
 
 ## Propuesta de Frontend (sin terminar)
